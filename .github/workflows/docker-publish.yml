@@ -29,5 +29,5 @@ jobs:
       with:
         push: true
         tags: |
-          ghcr.io/GITHUB_USERNAME/autoware-ml:latest
-          ghcr.io/GITHUB_USERNAME/autoware-ml:${{ github.ref_name }}
+          ghcr.io/tier4/autoware-ml:latest
+          ghcr.io/tier4/autoware-ml:${{ github.ref_name }}
