@@ -29,5 +29,5 @@ jobs:
       with:
         push: true
         tags: |
-          ghcr.io/tier4/autoware-ml:latest
-          ghcr.io/tier4/autoware-ml:${{ github.ref_name }}
+          ghcr.io/kminoda/container_registry_test:latest
+          ghcr.io/kminoda/container_registry_test:${{ github.ref_name }}
